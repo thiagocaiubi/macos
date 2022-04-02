@@ -1,0 +1,37 @@
+---
+- name: Setup macOS
+  hosts: localhost
+  become: false
+  connection: local
+
+  vars:
+    brew_formulas:
+      - awscli
+      - bash-completion
+      - ca-certificates
+      - cloc
+      - colima
+      - docker
+      - docker-compose
+      - editorconfig
+      - git
+      - go
+      - jq
+      - kubernetes-cli
+      - minikube
+      - ngrep
+      - nvm
+      - shellcheck
+      - siege
+      - tfsec
+      - tmux
+      - vim
+      - wget
+
+  tasks:
+    - name: Install Homebrew formulas
+      homebrew:
+        name: "{{ brew_formulas }}"
+        state: present
+      register: result
+      until: result is successful
