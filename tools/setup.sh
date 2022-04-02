@@ -11,7 +11,6 @@ if ! command -v brew &>/dev/null; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-
 if ! command -v ansible-playbook &>/dev/null; then
     echo "Install Ansible"
     brew install ansible
