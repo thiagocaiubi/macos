@@ -23,6 +23,7 @@
       - nvm
       - shellcheck
       - siege
+      - terraform
       - tfsec
       - tmux
       - vim
