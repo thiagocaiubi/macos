@@ -25,6 +25,7 @@
       - siege
       - terraform
       - tfsec
+      - tig
       - tmux
       - vim
       - wget
