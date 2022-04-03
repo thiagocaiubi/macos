@@ -17,4 +17,4 @@ if ! command -v git &>/dev/null; then
 fi
 
 echo "Clone the repo, then follow the instructions in the README.md file"
-echo "git clone git@github.com:thiagocaiubi/macos.git"
+echo "git clone https://github.com/thiagocaiubi/macos.git"
