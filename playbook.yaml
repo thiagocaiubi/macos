@@ -30,7 +30,7 @@
       - vim
       - wget
 
-	brew_casks:
+    brew_casks:
       - brave-browser
       - dropbox
       - firefox
