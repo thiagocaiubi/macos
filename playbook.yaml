@@ -30,6 +30,20 @@
       - vim
       - wget
 
+	brew_casks:
+      - brave-browser
+      - dropbox
+      - firefox
+      - flycut
+      - google-drive
+      - iterm2
+      - pritunl
+      - rectangle
+      - spotify
+      - visual-studio-code
+      - whatsapp
+      - zoom
+
   tasks:
     - name: Install Homebrew formulas
       homebrew:
@@ -37,3 +51,11 @@
         state: present
       register: result
       until: result is successful
+
+    - name: Install Homebrew casks
+      homebrew_cask:
+        name: "{{ brew_casks }}"
+        state: present
+      register: result
+      until: result is successful
+      when: homebrew_check.stat.exists
