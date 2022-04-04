@@ -36,6 +36,7 @@
       - firefox
       - flycut
       - google-chrome
+      - google-cloud-sdk
       - google-drive
       - iterm2
       - pritunl
