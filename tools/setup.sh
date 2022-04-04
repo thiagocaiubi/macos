@@ -5,4 +5,4 @@ if ! command -v ansible-playbook &>/dev/null; then
     brew install ansible
 fi
 
-ansible-playbook playbook.yaml
+ansible-playbook main.yml
