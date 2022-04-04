@@ -61,3 +61,25 @@
         state: present
       register: result
       until: result is successful
+
+    - name: Auto hide dock
+      osx_defaults:
+        domain: com.apple.dock
+        key: autohide
+        type: bool
+        value: true
+        state: present
+
+    - name: Set touch bar as expanded control strip
+      osx_defaults:
+        domain: com.apple.touchbar.agent
+        key:    PresentationModeGlobal
+        type:   string
+        value:  fullControlStrip
+
+    - name: Show hidden files
+      osx_defaults:
+        domain: com.apple.finder
+        key:    AppleShowAllFiles
+        type:   bool
+        value:  true
