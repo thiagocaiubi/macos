@@ -16,6 +16,7 @@
       - editorconfig
       - git
       - go
+      - grip
       - jq
       - kubernetes-cli
       - minikube
