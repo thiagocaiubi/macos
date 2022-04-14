@@ -24,7 +24,7 @@
       - nvm
       - shellcheck
       - siege
-      - terraform
+      - tfenv
       - tfsec
       - tig
       - tmux
