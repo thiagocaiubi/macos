@@ -29,6 +29,7 @@
       - tfsec
       - tig
       - tmux
+      - tree
       - vim
       - wget
 
