@@ -34,6 +34,7 @@
       - wget
 
     brew_casks:
+      - android-file-transfer
       - brave-browser
       - dropbox
       - firefox
