@@ -43,6 +43,7 @@
       - google-cloud-sdk
       - google-drive
       - iterm2
+      - microsoft-teams
       - pritunl
       - rectangle
       - signal
