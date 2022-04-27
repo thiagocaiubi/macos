@@ -17,6 +17,7 @@
       - git
       - go
       - grip
+      - istioctl
       - jq
       - kubernetes-cli
       - minikube
