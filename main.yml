@@ -21,6 +21,7 @@
       - java
       - jq
       - kubernetes-cli
+      - python-yq
       - minikube
       - ngrep
       - nvm
