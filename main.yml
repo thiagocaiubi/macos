@@ -18,6 +18,7 @@
       - go
       - grip
       - istioctl
+      - java
       - jq
       - kubernetes-cli
       - minikube
