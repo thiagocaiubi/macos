@@ -25,6 +25,7 @@
       - ngrep
       - nvm
       - shellcheck
+      - semgrep
       - siege
       - terraformer
       - tfenv
