@@ -8,6 +8,7 @@
     brew_formulas:
       - awscli
       - bash-completion
+      - brew
       - ca-certificates
       - cloc
       - colima
