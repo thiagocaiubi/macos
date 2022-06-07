@@ -29,6 +29,7 @@
       - shellcheck
       - semgrep
       - siege
+      - telnet
       - terraformer
       - tfenv
       - tfsec
