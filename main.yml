@@ -8,7 +8,6 @@
     brew_formulas:
       - awscli
       - bash-completion
-      - brew
       - ca-certificates
       - cloc
       - colima
@@ -18,6 +17,7 @@
       - git
       - go
       - grip
+      - helm
       - istioctl
       - java
       - jq
