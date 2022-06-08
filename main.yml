@@ -22,12 +22,13 @@
       - java
       - jq
       - kubernetes-cli
-      - python-yq
       - minikube
       - ngrep
       - nvm
-      - shellcheck
+      - python-yq
+      - reattach-to-user-namespace
       - semgrep
+      - shellcheck
       - siege
       - telnet
       - terraformer
