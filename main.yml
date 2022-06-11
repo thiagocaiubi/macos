@@ -38,6 +38,7 @@
       - tmux
       - tree
       - vim
+      - watch
       - wget
 
     brew_casks:
