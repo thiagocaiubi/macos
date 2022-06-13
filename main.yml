@@ -10,6 +10,7 @@
       - bash-completion
       - ca-certificates
       - cloc
+      - cmake
       - colima
       - docker
       - docker-compose
