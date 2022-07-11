@@ -17,6 +17,7 @@
       - editorconfig
       - git
       - go
+      - graphviz
       - grip
       - helm
       - istioctl
