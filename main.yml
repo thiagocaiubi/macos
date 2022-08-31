@@ -27,6 +27,7 @@
       - minikube
       - ngrep
       - nvm
+      - pyenv
       - python-yq
       - reattach-to-user-namespace
       - semgrep
