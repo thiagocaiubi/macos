@@ -26,6 +26,7 @@
       - jq
       - kubernetes-cli
       - minikube
+      - neovim
       - ngrep
       - nvm
       - pyenv
