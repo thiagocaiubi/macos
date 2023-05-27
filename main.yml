@@ -35,6 +35,7 @@
       - reattach-to-user-namespace
       - semgrep
       - shellcheck
+      - shfmt
       - siege
       - telnet
       - terraformer
