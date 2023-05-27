@@ -77,9 +77,18 @@
       register: result
       until: result is successful
 
+    - name: Tap Homebrew Nerd Fonts
+      homebrew_tap:
+        name: homebrew/cask-fonts
+        state: present
+
+    - name: Search Nerd Fonts
+      command: brew search '/font-.*-nerd-font/'
+      register: nerd_fonts
+
     - name: Install Homebrew casks
       homebrew_cask:
-        name: "{{ brew_casks }}"
+        name: "{{ brew_casks + nerd_fonts.stdout_lines }}"
         state: present
       register: result
       until: result is successful
