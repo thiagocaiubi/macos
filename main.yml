@@ -15,7 +15,6 @@
       - docker
       - docker-buildx
       - docker-compose
-      - editorconfig
       - eksctl
       - git
       - go
