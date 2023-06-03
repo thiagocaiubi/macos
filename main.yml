@@ -31,9 +31,10 @@
       - neovim
       - ngrep
       - nvm
+      - prettier
       - pyenv
-      - python-yq
       - pyenv-virtualenv
+      - python-yq
       - reattach-to-user-namespace
       - semgrep
       - shellcheck
