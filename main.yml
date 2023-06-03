@@ -8,6 +8,7 @@
     brew_formulas:
       - awscli
       - bash-completion
+      - black
       - ca-certificates
       - cloc
       - cmake
@@ -21,6 +22,7 @@
       - graphviz
       - grip
       - helm
+      - isort
       - istioctl
       - java
       - jq
