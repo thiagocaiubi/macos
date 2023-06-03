@@ -107,13 +107,13 @@
     - name: Set touch bar as expanded control strip
       osx_defaults:
         domain: com.apple.touchbar.agent
-        key:    PresentationModeGlobal
-        type:   string
-        value:  fullControlStrip
+        key: PresentationModeGlobal
+        type: string
+        value: fullControlStrip
 
     - name: Show hidden files
       osx_defaults:
         domain: com.apple.finder
-        key:    AppleShowAllFiles
-        type:   bool
-        value:  true
+        key: AppleShowAllFiles
+        type: bool
+        value: true
