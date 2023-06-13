@@ -61,6 +61,7 @@
       - google-cloud-sdk
       - google-drive
       - iterm2
+      - microsoft-edge
       - microsoft-teams
       - notion
       - pritunl
