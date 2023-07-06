@@ -66,6 +66,7 @@
       - notion
       - pritunl
       - rectangle
+      - session-manager-plugin
       - signal
       - slack
       - spotify
